@@ -27,6 +27,11 @@ td {
   border: 1px solid black;
 }
 
+tbody > tr > td:nth-child(2) {
+  text-align: right;
+  color: blue;
+}
+
 .bcollapse {
   border-collapse: collapse;
 }
